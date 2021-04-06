@@ -7,4 +7,5 @@ class AwesomeSerial {
     void init(int bufSize, unsigned long baud);
     void send(const char* data);
     int receive();
+    int read();
 };

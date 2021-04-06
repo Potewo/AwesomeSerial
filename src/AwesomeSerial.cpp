@@ -38,3 +38,7 @@ int AwesomeSerial::receive() {
   Serial.print('O');
   return N;
 }
+
+int AwesomeSerial::read() {
+  return Serial.read();
+}
